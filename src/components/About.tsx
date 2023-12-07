@@ -8,7 +8,7 @@ export function About() {
                 </h2>
                 <p className="relative text-sm text-gray-600">
                     Estudante de programação, cursando bacharelado em ciência da computação.
-                    Tenho alguns projetos em andamentos que posteriormente irei atualizando aqui neste portfólio.
+                    Mantenho alguns projetos em desenvolvimento, os quais pretendo compartilhar e atualizar regularmente neste portfólio.
                 </p>
                 <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40" />
             </div>
@@ -74,7 +74,7 @@ export function About() {
                                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full
                                             bg-green-400 opacity-75"></span>
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
-                                            
+
                                         </span>
                                     </td>
                                 </tr>
