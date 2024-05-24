@@ -1,3 +1,4 @@
+import React from "react"
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
 
 export default function Skills() {

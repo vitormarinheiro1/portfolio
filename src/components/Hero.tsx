@@ -1,3 +1,4 @@
+import React from 'react'
 import { HiDownload } from 'react-icons/hi'
 
 export function Hero() {
