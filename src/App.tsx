@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css'
 import { About } from './components/About'
 import Contact from './components/Contact'
@@ -6,6 +7,7 @@ import Projects from './components/Projects'
 import Services from './components/Services'
 import Skills from './components/Skills'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
     return (
