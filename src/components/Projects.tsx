@@ -4,11 +4,11 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 export default function Projects() {
   const projects = [
     {
-      title: "Projeto 1",
-      description: "Em andamento...",
+      title: "Porfólio em Nextjs",
+      description: "Portfólio em Nextjs e TailwindCSS",
       image:
-        "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
-      link: "#",
+        "./projects/portfolio.png",
+      link: "https://projeto-portfolio-nextjs.vercel.app/",
       colSpan: "col-span-1",
     },
     {
@@ -16,7 +16,7 @@ export default function Projects() {
       description: "Visualize e Gerencie sua Equipe de Colaboradores...",
       image:
         "./projects/organo1.PNG",
-      link: "#",
+      link: "https://github.com/vitormarinheiro1/Organo",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
