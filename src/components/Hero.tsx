@@ -13,9 +13,9 @@ export function Hero() {
                     </h1>
                     <h2 className="font-semibold flex items-center gap-2 text-center md:text-left">
                         <div className="h-1 w-12 rounded-full bg-blue-800" />
-                        Desenvolvedor Front-end
+                        Desenvolvedor Fullstack
                     </h2>
-                    <p className="text-gray-400 my-6 text-center md:text-left">Construindo Experiências Incríveis com React: Desenvolvedor Front-End Transformando Visões em Realidade</p>
+                    <p className="text-gray-400 my-6 text-center md:text-left">Entrega de softwares e sites altamente qualificados e responsivos, garantindo excelência em cada projeto.</p>
 
                     <div className="flex items-center gap-2 justify-center md:justify-start">
                         <a href="https://wa.me/5511973179659?text=Olá..." className="underline font-bold text-white">Fale Comigo</a>
