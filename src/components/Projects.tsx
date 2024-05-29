@@ -12,19 +12,19 @@ export default function Projects() {
       colSpan: "col-span-1",
     },
     {
-      title: "Organo",
-      description: "Visualize e Gerencie sua Equipe de Colaboradores...",
+      title: "Threads",
+      description: "Projeto Simples de Criação de Perfil no Threads...",
       image:
-        "./projects/organo1.PNG",
-      link: "https://github.com/vitormarinheiro1/Organo",
+        "./projects/threads.png",
+      link: "https://projeto-threads-marinheiroz.vercel.app/",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
-      title: "Projeto 3",
-      description: "Em andamento...",
+      title: "Organo",
+      description: "Visualize e Gerencie sua Equipe de Colaboradores...",
       image:
-        "https://media.istockphoto.com/id/1305995602/photo/responsive-floating-responsive-design.jpg?b=1&s=170667a&w=0&k=20&c=uFqBz27v_B0UxcslnvZxd9c0D9eJAef7veRZf6b-v-A=",
-      link: "#",
+        "./projects/organo1.png",
+      link: "https://github.com/vitormarinheiro1/Organo",
       colSpan: "col-span-1",
     },
     {
