@@ -13,7 +13,7 @@ export default function Projects() {
     },
     {
       title: "Threads",
-      description: "Projeto Simples de Criação de Perfil no Threads...",
+      description: "Projeto Simples de Criação de Perfil no Threads",
       image:
         "./projects/threads.png",
       link: "https://projeto-threads-marinheiroz.vercel.app/",
@@ -21,7 +21,7 @@ export default function Projects() {
     },
     {
       title: "Organo",
-      description: "Visualize e Gerencie sua Equipe de Colaboradores...",
+      description: "Gerencie sua Equipe de Colaboradores",
       image:
         "./projects/organo1.png",
       link: "https://github.com/vitormarinheiro1/Organo",
