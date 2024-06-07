@@ -9,7 +9,7 @@ export function About() {
                     <span className="font-handwriting text-4xl">Mim</span>
                 </h2>
                 <p className="relative text-sm text-gray-600">
-                    Olá! Especializado em criar interfaces web intuitivas e dinâmicas.
+                    Sou especializado em criar interfaces web intuitivas e dinâmicas.
                     Estudo Ciência da Computação e estou sempre atualizado com as últimas tendências e tecnologias, buscando aprimorar minhas
                     habilidades e entregar projetos de alta qualidade.
                 </p>

@@ -7,7 +7,6 @@ export function Hero() {
             <div className="container mx-auto max-w-4xl p-2 py-12 flex flex-col md:flex-row">
                 <div className='basis-1/2'>
                     <h1 className="mb-6 text-center md:text-left">
-                        <span className="font-handwriting block text-3xl text-center md:text-left">Olá, me chamo</span>
                         <span className="font-headline text-5xl font-semibold">Vitor</span>
                         <span className="font-headline text-5xl font-light text-blue-400">Marinheiro</span>
                     </h1>
