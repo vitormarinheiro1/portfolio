@@ -4,6 +4,30 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 export default function Projects() {
   const projects = [
     {
+      title: "Tarefas+",
+      description: "Organizar seus estudos e tarefas",
+      image:
+        "./projects/tarefas.png",
+      link: "https://projeto-tarefas-nextjs.vercel.app/",
+      colSpan: "col-span-1",
+    },
+    {
+      title: "Meus Repositórios",
+      description: "Acompanhar repositórios favoritos",
+      image:
+        "./projects/repositorios.png",
+      link: "https://meus-repos.vercel.app/",
+      colSpan: "col-span-1 md:col-span-2",
+    },
+    {
+      title: "Threads",
+      description: "Projeto de Criação de Perfil no Threads",
+      image:
+        "./projects/threads.png",
+      link: "https://projeto-threads-marinheiroz.vercel.app/",
+      colSpan: "col-span-1",
+    },
+    {
       title: "Porfólio em Nextjs",
       description: "Portfólio em Nextjs e TailwindCSS",
       image:
@@ -12,35 +36,11 @@ export default function Projects() {
       colSpan: "col-span-1",
     },
     {
-      title: "Threads",
-      description: "Projeto Simples de Criação de Perfil no Threads",
-      image:
-        "./projects/threads.png",
-      link: "https://projeto-threads-marinheiroz.vercel.app/",
-      colSpan: "col-span-1 md:col-span-2",
-    },
-    {
       title: "Organo",
       description: "Gerencie sua Equipe de Colaboradores",
       image:
         "./projects/organo.png",
       link: "https://github.com/vitormarinheiro1/Organo",
-      colSpan: "col-span-1",
-    },
-    {
-      title: "Projeto 4",
-      description: "Em andamento...",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
-      colSpan: "col-span-1",
-    },
-    {
-      title: "Projeto 5",
-      description: "Em andamento...",
-      image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
       colSpan: "col-span-1",
     },
   ]
