@@ -85,7 +85,7 @@ export function About() {
                         </table>
 
                     </div>
-                    <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(/images/me.jpeg)] bg-cover bg-center md:-left-12 md:-top12 md:h-72 md:w-56"></div>
+                    <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(../src/components/About/assets/me.jpeg)] bg-cover bg-center md:-left-12 md:-top12 md:h-72 md:w-56"></div>
                 </div>
             </div>
         </section>
