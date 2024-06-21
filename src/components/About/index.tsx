@@ -2,7 +2,7 @@ import React from "react";
 
 export function About() {
     return (
-        <section className="container mx-auto my-4 max-w-5xl py-4">
+        <section className="container mx-auto my-4 max-w-5xl p-4">
             <div className="relative p-4 text-center">
                 <h2 className="relative text-blue-900 font-bold z-10">
                     <span className="mr-2 font-headline text-3xl font-bold">Sobre</span>
@@ -18,7 +18,7 @@ export function About() {
 
             <div className="relative mx-auto mt-20 max-w-lg">
                 <div className="relative w-full rounded-lg bg-blue-100 p-4 ps-20 md:h-64 md:ps-48">
-                    <div className="relative h-full rounded-lg bg-gray-50 p-4">
+                    <div className="relative h-full rounded-lg bg-gray-50 p-2">
                         <p className="font-handwriting text-lg font-bold">Olá,</p>
                         <p>
                             <span className="mr-1">Meu nome é</span>
@@ -50,7 +50,7 @@ export function About() {
                                         E-mail:
                                     </td>
                                     <td>
-                                        <a href="mailto:vitormarinheiro9@gmail.com" className="underline hover:text-blue-800">
+                                        <a href="mailto:vitormarinheiro9@gmail.com" className="underline hover:text-blue-800" style={{ wordBreak: "break-word" }}>
                                             vitormarinheiro9@gmail.com
                                         </a>
                                     </td>
