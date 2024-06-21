@@ -23,10 +23,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_99ngvlh",
-        "template_po2nhe7",
+        "gmailMessage",
+        "template_3sx4vvq",
         form.current,
-        "4GbIsCzVifbY3ve0-"
+        "w9lX8-TE44uc8-W7J"
       )
       .then(
         () => {
