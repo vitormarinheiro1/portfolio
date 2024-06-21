@@ -11,7 +11,7 @@ export default function Skills() {
       name: "Ciência da computação | Faculdade descomplica",
     },
     {
-      name: "Técnico de informática | Centro Educacional Desafio",
+      name: "Tecnologia da informação | Centro Educacional Desafio",
     },
   ]
 
