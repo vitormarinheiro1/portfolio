@@ -1,36 +1,55 @@
-# Meu portfólio Oficial
-<img height="500" src="/public/portfolio.png">
+<h1 align="center" style="font-weight: bold;">Meu portfólio oficial</h1>
 
-### 🛠 Tecnologias
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+</p>
 
-As seguintes ferramentas foram usadas na construção do projeto:
-- [React](https://pt-br.reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Node](https://nodejs.org/en)
-- [Typescript](https://www.typescriptlang.org/)
+<p align="center">
+     <a href="https://vitormarinheiro.vercel.app/">📱 Visit this Project</a>
+</p>
 
+<h2 id="layout">🎨 Layout</h2>
 
-### Pré-requisitos
+<p align="center">
+    <img src="./public/portfolio.png" alt="Image 1" width="400px">
+    <img src="./public/portfolio1.png" alt="Image 2" width="400px">
+</p>
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+<h2 id="tech">💻 Technologies</h2>
 
-### 🎲 Rodando o projeto
+- Reactjs
+- Vite
+- Styled Components
+- Emailjs
+
+<h2 id="started">🚀 Getting started</h2>
+
+<h3>Prerequisites</h3>
+
+- [NodeJS](https://nodejs.org/en)
+- [Git](https://git-scm.com/)
+
+<h3>Cloning</h3>
+
+How to clone your project
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/vitormarinheiro1/portfolio.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd portfolio
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
-
-# O servidor inciará na porta:5173 - acesse <http://localhost:5173>
+git clone https://github.com/vitormarinheiro1/portfolio.git
 ```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd portfolio
+npm install
+npm run dev
+```
+
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
