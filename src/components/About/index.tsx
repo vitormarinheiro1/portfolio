@@ -2,7 +2,7 @@ import React from "react";
 
 export function About() {
     return (
-        <section className="container mx-auto my-4 max-w-5xl p-4">
+        <section className="container mx-auto my-4 max-w-5xl py-4">
             <div className="relative p-4 text-center">
                 <h2 className="relative text-blue-900 font-bold z-10">
                     <span className="mr-2 font-headline text-3xl font-bold">Sobre</span>
