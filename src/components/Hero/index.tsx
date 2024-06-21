@@ -12,7 +12,7 @@ export function Hero() {
                     </h1>
                     <h2 className="font-semibold flex items-center gap-2 text-center md:text-left">
                         <div className="h-1 w-12 rounded-full bg-blue-800" />
-                        Desenvolvedor Fullstack
+                        Desenvolvedor Frontend
                     </h2>
                     <p className="text-gray-400 my-6 text-center md:text-left">Entrega de softwares e sites altamente qualificados e responsivos, garantindo excelência em cada projeto.</p>
 
