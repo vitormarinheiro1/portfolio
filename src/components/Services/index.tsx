@@ -10,17 +10,17 @@ export function Services() {
         {
         title: "Web",
         description:
-            "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Next.js, HTML5 e CSS3.",
+            "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Next.js, SCSS e Jest.",
             icon: <HiComputerDesktop className="h-12 w-12" />
     },
     {
         title: "Sistemas",
-        description: "Desenvolvimento de sistemas e APIs REST com Node.js.",
+        description: "Desenvolvimento de sistemas e APIs REST com Python e Swagger.",
         icon: <HiCommandLine className="h-12 w-12" />
     },
     {
         title: "Mobile",
-        description: "Desenvolvimento de aplicativos Android e iOS..",
+        description: "Desenvolvimento de aplicativos Android e iOS.",
         icon: <HiDevicePhoneMobile className="h-12 w-12" />
     },
     ]
