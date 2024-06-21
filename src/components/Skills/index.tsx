@@ -1,5 +1,9 @@
 import React from "react"
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
+import reactIcon from "./assets/react.svg";
+import angularIcon from "./assets/angular.png";
+import pythonIcon from "./assets/python.png";
+import mysqlIcon from "./assets/mysql.png";
 
 export default function Skills() {
   const educations = [
@@ -14,25 +18,25 @@ export default function Skills() {
   const skills = [
     {
       name: "React.js",
-      icon: "../src/components/Skills/assets/react.svg",
+      icon: reactIcon,
       level: 90,
     },
     {
       name: "Angular",
-      icon: "../src/components/Skills/assets/angular.png",
+      icon: angularIcon,
       level: 85,
     },
     {
       name: "Python",
-      icon: "../src/components/Skills/assets/python.png",
+      icon: pythonIcon,
       level: 85,
     },
     {
       name: "MySQL",
-      icon: "../src/components/Skills/assets/mysql.png",
+      icon: mysqlIcon,
       level: 80,
     },
-  ]
+  ];
 
   return (
     <section className="rounded-br-[80px] bg-gray-300 md:rounded-br-[180px]">
