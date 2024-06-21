@@ -1,45 +1,47 @@
 import React from "react"
 import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 
+import tarefasImage from "./assets/tarefas.png";
+import repositoriosImage from "./assets/repositorios.png";
+import threadsImage from "./assets/threads.png";
+import portfolioImage from "./assets/portfolio.png";
+import organoImage from "./assets/organo.png";
+
+
 export default function Projects() {
   const projects = [
     {
       title: "Tarefas+",
       description: "Organizar seus estudos e tarefas",
-      image:
-        "../src/components/Projects/assets/tarefas.webp",
+      image: tarefasImage,
       link: "https://projeto-tarefas-nextjs.vercel.app/",
       colSpan: "col-span-1",
     },
     {
       title: "Meus Repositórios",
       description: "Acompanhar repositórios favoritos",
-      image:
-        "../src/components/Projects/assets/repositorios.webp",
+      image: repositoriosImage,
       link: "https://meus-repos.vercel.app/",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
       title: "Threads",
       description: "Projeto de Criação de Perfil no Threads",
-      image:
-        "../src/components/Projects/assets/threads.webp",
+      image: threadsImage,
       link: "https://projeto-threads-marinheiroz.vercel.app/",
       colSpan: "col-span-1",
     },
     {
       title: "Porfólio em Nextjs",
       description: "Portfólio em Nextjs e TailwindCSS",
-      image:
-        "../src/components/Projects/assets/portfolio.webp",
+      image: portfolioImage,
       link: "https://projeto-portfolio-nextjs.vercel.app/",
       colSpan: "col-span-1",
     },
     {
       title: "Organo",
       description: "Gerencie sua Equipe de Colaboradores",
-      image:
-        "../src/components/Projects/assets/organo.webp",
+      image: organoImage,
       link: "https://github.com/vitormarinheiro1/Organo",
       colSpan: "col-span-1",
     },
