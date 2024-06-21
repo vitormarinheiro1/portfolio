@@ -55,9 +55,9 @@ export default function Contact() {
       icon: <HiOutlineEnvelope className="h-10 w-10" />,
     },
     {
-      name: "Osasco - SP",
-      description: "Cidade das flores",
-      link: "https://www.google.com/maps/place/Cidade+das+Flores,+Osasco+-+SP,+02675-031/@-23.1895062,-45.8630127,12z/data=!4m6!3m5!1s0x94ceffc9c724e289:0x8ebb60e53643ef38!8m2!3d-23.5373687!4d-46.8071244!16s%2Fg%2F12116wz9?entry=ttu",
+      name: "Osasco",
+      description: "São Paulo, Brasil",
+      link: "https://www.google.com/maps/place/Osasco,+SP/@-23.5347434,-46.8257732,13z/data=!3m1!4b1!4m6!3m5!1s0x94ceff085b9ef207:0xf21e27d4c824c4e!8m2!3d-23.5318198!4d-46.7916315!16s%2Fg%2F122n5xvw?entry=ttu",
       icon: <HiOutlineMapPin className="h-10 w-10" />,
     },
   ]
