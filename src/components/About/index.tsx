@@ -77,13 +77,11 @@ export function About() {
                                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full
                                             bg-green-400 opacity-75"></span>
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
-
                                         </span>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                     <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(../src/components/About/assets/me.jpeg)] bg-cover bg-center md:-left-12 md:-top12 md:h-72 md:w-56"></div>
                 </div>
