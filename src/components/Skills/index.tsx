@@ -1,9 +1,9 @@
 import React from "react"
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
 import reactIcon from "./assets/react.svg";
-import angularIcon from "./assets/angular.png";
+import nextIcon from "./assets/nextjs.svg";
 import pythonIcon from "./assets/python.png";
-import mysqlIcon from "./assets/mysql.png";
+import sassIcon from "./assets/sass.svg";
 
 export default function Skills() {
   const educations = [
@@ -22,19 +22,19 @@ export default function Skills() {
       level: 90,
     },
     {
-      name: "Angular",
-      icon: angularIcon,
+      name: "Next.js",
+      icon: nextIcon,
+      level: 75,
+    },
+    {
+      name: "Sass",
+      icon: sassIcon,
       level: 85,
     },
     {
       name: "Python",
       icon: pythonIcon,
-      level: 85,
-    },
-    {
-      name: "MySQL",
-      icon: mysqlIcon,
-      level: 80,
+      level: 90,
     },
   ];
 
@@ -51,7 +51,7 @@ export default function Skills() {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Fullstack Developer | React.js | Node.js | Next.js | Angular.js | Python | MySQL
+            Frontend Developer | React.js | Next.js | Angular.js | Python | MySQL | Node.js
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
