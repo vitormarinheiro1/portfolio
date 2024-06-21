@@ -7,7 +7,7 @@ export default function Projects() {
       title: "Tarefas+",
       description: "Organizar seus estudos e tarefas",
       image:
-        "../src/components/Projects/assets/tarefas.png",
+        "../src/components/Projects/assets/tarefas.webp",
       link: "https://projeto-tarefas-nextjs.vercel.app/",
       colSpan: "col-span-1",
     },
@@ -15,7 +15,7 @@ export default function Projects() {
       title: "Meus Repositórios",
       description: "Acompanhar repositórios favoritos",
       image:
-        "../src/components/Projects/assets/repositorios.png",
+        "../src/components/Projects/assets/repositorios.webp",
       link: "https://meus-repos.vercel.app/",
       colSpan: "col-span-1 md:col-span-2",
     },
@@ -23,7 +23,7 @@ export default function Projects() {
       title: "Threads",
       description: "Projeto de Criação de Perfil no Threads",
       image:
-        "../src/components/Projects/assets/threads.png",
+        "../src/components/Projects/assets/threads.webp",
       link: "https://projeto-threads-marinheiroz.vercel.app/",
       colSpan: "col-span-1",
     },
@@ -31,7 +31,7 @@ export default function Projects() {
       title: "Porfólio em Nextjs",
       description: "Portfólio em Nextjs e TailwindCSS",
       image:
-        "../src/components/Projects/assets/portfolio.png",
+        "../src/components/Projects/assets/portfolio.webp",
       link: "https://projeto-portfolio-nextjs.vercel.app/",
       colSpan: "col-span-1",
     },
@@ -39,7 +39,7 @@ export default function Projects() {
       title: "Organo",
       description: "Gerencie sua Equipe de Colaboradores",
       image:
-        "../src/components/Projects/assets/organo.png",
+        "../src/components/Projects/assets/organo.webp",
       link: "https://github.com/vitormarinheiro1/Organo",
       colSpan: "col-span-1",
     },
