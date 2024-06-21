@@ -1,5 +1,5 @@
 # Meu portfólio Oficial
-<img height="500" src="/public/images/projeto.png">
+<img height="500" src="/public/portfolio.png">
 
 ### 🛠 Tecnologias
 
