@@ -1,5 +1,7 @@
 import React from 'react'
 import { HiDownload } from 'react-icons/hi'
+import curriculo from "./assets/Curriculo_Vitor_Marinheiro.pdf";
+
 
 export function Hero() {
     return (
