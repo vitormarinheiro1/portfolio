@@ -1,47 +1,53 @@
 import React from "react";
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
+import { FaCode } from "react-icons/fa6";
 
 import tarefasImage from "../assets/tarefas.png";
-import cardapioImage from "../assets/cardapio.png";
-import threadsImage from "../assets/threads.png";
-import sorteadorImage from "../assets/sorteador.png";
+import fswBarberImage from "../assets/fswbarber.png";
 import eplayImage from "../assets/eplay.png";
+import plannerImage from "../assets/planner.png";
+import vitorhelpdeskImage from "../assets/vitorhelpdesk.png";
 
 export default function Projects() {
   const projects = [
     {
+      title: "FSW Barber",
+      description: "Sistema de Barbearia",
+      image: fswBarberImage,
+      linkProject: "https://fsw-barber-vitor.vercel.app/",
+      linkGithub: "https://github.com/vitormarinheiro1/fsw-barber",
+      colSpan: "col-span-1",
+    },
+    {
+      title: "Plann.er",
+      description: "Agendamento de viagens",
+      image: plannerImage,
+      linkProject: "https://projetoplanner-react.vercel.app/",
+      linkGithub: "https://github.com/vitormarinheiro1/Plann.er",
+      colSpan: "col-span-1 md:col-span-2",
+    },
+    {
+      title: "Vitor HelpDesk",
+      description: "Sistema de Abertura de chamados",
+      image: vitorhelpdeskImage,
+      linkProject: "https://vitorhelpdesk.vercel.app/",
+      linkGithub: "https://github.com/vitormarinheiro1/VitorHelpDesk",
+      colSpan: "col-span-1",
+    },
+    {
       title: "Eplay",
       description: "Ecommerce Eplay",
       image: eplayImage,
-      link: "https://ecommerce-eplay.vercel.app/",
+      linkProject: "https://ecommerce-eplay.vercel.app/",
+      linkGithub: "https://github.com/vitormarinheiro1/Ecommerce-eplay",
       colSpan: "col-span-1",
     },
     {
       title: "Tarefas+",
       description: "Organizar seus estudos e tarefas",
       image: tarefasImage,
-      link: "https://projeto-tarefas-nextjs.vercel.app/",
-      colSpan: "col-span-1 md:col-span-2",
-    },
-    {
-      title: "Cardápio",
-      description: "Restaurante em React e Sass",
-      image: cardapioImage,
-      link: "https://cardapio-zeta-snowy.vercel.app/",
-      colSpan: "col-span-1",
-    },
-    {
-      title: "Sorteador de amigo secreto",
-      description: "Projeto React com TDD",
-      image: sorteadorImage,
-      link: "https://sorteador-amigo-secreto-project.vercel.app/",
-      colSpan: "col-span-1",
-    },
-    {
-      title: "Threads",
-      description: "Projeto de Criação de Perfil no Threads",
-      image: threadsImage,
-      link: "https://projeto-threads-marinheiroz.vercel.app/",
+      linkProject: "https://projeto-tarefas-nextjs.vercel.app/",
+      linkGithub: "https://github.com/vitormarinheiro1/tarefas",
       colSpan: "col-span-1",
     },
   ];
@@ -75,10 +81,15 @@ export default function Projects() {
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}
                   </h4>
-                  <p className=" mb-4 text-sm">{project.description}</p>
-                  <a href={project.link} target="_blank">
-                    <HiArrowTopRightOnSquare className="h-6 w-6" />
-                  </a>
+                  <p className="mb-4 text-sm">{project.description}</p>
+                  <div className="flex gap-2">
+                    <a href={project.linkProject} target="_blank">
+                      <HiArrowTopRightOnSquare className="h-6 w-6" />
+                    </a>
+                    <a href={project.linkGithub}>
+                      <FaCode className="h-6 w-6" />
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
