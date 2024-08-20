@@ -1,25 +1,25 @@
-import emailjs from "@emailjs/browser"
-import React from "react"
-import { FormEvent, useRef, useState } from "react"
-import { FaSpinner, FaWhatsapp } from "react-icons/fa"
+import emailjs from "@emailjs/browser";
+import React from "react";
+import { FormEvent, useRef, useState } from "react";
+import { FaSpinner, FaWhatsapp } from "react-icons/fa";
 import {
   HiCheckCircle,
   HiOutlineEnvelope,
   HiOutlineMapPin,
-} from "react-icons/hi2"
+} from "react-icons/hi2";
 
 export default function Contact() {
-  const form = useRef<HTMLFormElement>(null)
-  const [loading, setLoading] = useState(false)
-  const [success, setSuccess] = useState(false)
-  const [error, setError] = useState(false)
+  const form = useRef<HTMLFormElement>(null);
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
 
   const sendEmail = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
+    event.preventDefault();
 
-    if (!form.current) return
+    if (!form.current) return;
 
-    setLoading(true)
+    setLoading(true);
 
     emailjs
       .sendForm(
@@ -30,16 +30,16 @@ export default function Contact() {
       )
       .then(
         () => {
-          setSuccess(true)
-          setLoading(false)
+          setSuccess(true);
+          setLoading(false);
         },
         (error) => {
-          setError(true)
-          setLoading(false)
-          console.error(error)
+          setError(true);
+          setLoading(false);
+          console.error(error);
         }
-      )
-  }
+      );
+  };
 
   const contacts = [
     {
@@ -60,7 +60,7 @@ export default function Contact() {
       link: "https://www.google.com/maps/place/Osasco,+SP/@-23.5347434,-46.8257732,13z/data=!3m1!4b1!4m6!3m5!1s0x94ceff085b9ef207:0xf21e27d4c824c4e!8m2!3d-23.5318198!4d-46.7916315!16s%2Fg%2F122n5xvw?entry=ttu",
       icon: <HiOutlineMapPin className="h-10 w-10" />,
     },
-  ]
+  ];
 
   return (
     <section id="contact" className="bg-blue-700 text-white">
@@ -171,5 +171,5 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,5 +1,5 @@
-import React from "react"
-import { FaQuoteLeft } from "react-icons/fa"
+import React from "react";
+import { FaQuoteLeft } from "react-icons/fa";
 
 export default function Testimonials() {
   return (
@@ -29,7 +29,9 @@ export default function Testimonials() {
             alt="teste da Silva"
           />
           <div className="flex items-center divide-x-2 divide-gray-200">
-            <div className="pr-3 font-medium text-gray-900">Wagner Rodrigues</div>
+            <div className="pr-3 font-medium text-gray-900">
+              Wagner Rodrigues
+            </div>
             <div className="pl-3 text-sm font-light text-gray-500">
               Empresa.com
             </div>
@@ -37,5 +39,5 @@ export default function Testimonials() {
         </figcaption>
       </figure>
     </section>
-  )
+  );
 }

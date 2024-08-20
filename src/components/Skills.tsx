@@ -1,9 +1,9 @@
-import React from "react"
-import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
-import reactIcon from "./assets/react.svg";
-import nextIcon from "./assets/nextjs.svg";
-import pythonIcon from "./assets/python.png";
-import sassIcon from "./assets/sass.svg";
+import React from "react";
+import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2";
+import reactIcon from "../assets/react.svg";
+import nextIcon from "../assets/nextjs.svg";
+import pythonIcon from "../assets/python.png";
+import sassIcon from "../assets/sass.svg";
 
 export default function Skills() {
   const educations = [
@@ -13,7 +13,7 @@ export default function Skills() {
     {
       name: "Tecnologia da informação | Centro Educacional Desafio",
     },
-  ]
+  ];
 
   const skills = [
     {
@@ -51,7 +51,8 @@ export default function Skills() {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Frontend Developer | React.js | Next.js | Angular.js | Python | MySQL | Node.js
+            Frontend Developer | React.js | Next.js | Angular.js | Python |
+            MySQL | Node.js
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
@@ -92,7 +93,9 @@ export default function Skills() {
                     />
                   </div>
                   <div className="w-full flex-grow">
-                    <h4 className="font-headline text-gray-900">{skill.name}</h4>
+                    <h4 className="font-headline text-gray-900">
+                      {skill.name}
+                    </h4>
                     <div className="h-2.5 w-full rounded-full bg-white">
                       <div
                         className="h-2.5 rounded-full bg-blue-600"
@@ -107,5 +110,5 @@ export default function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }
