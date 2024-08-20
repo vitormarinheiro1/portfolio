@@ -2,13 +2,16 @@ import React from "react";
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2";
 import reactIcon from "../assets/react.svg";
 import nextIcon from "../assets/nextjs.svg";
-import pythonIcon from "../assets/python.png";
-import sassIcon from "../assets/sass.svg";
+import javascriptIcon from "../assets/javascript.svg";
+import tailwindIcon from "../assets/tailwind.svg";
 
 export default function Skills() {
   const educations = [
     {
       name: "Ciência da computação | Faculdade descomplica",
+    },
+    {
+      name: "React, Nextjs, JavaScript, TypeScript | Alura Escola de Tecnologia",
     },
     {
       name: "Tecnologia da informação | Centro Educacional Desafio",
@@ -27,13 +30,13 @@ export default function Skills() {
       level: 75,
     },
     {
-      name: "Sass",
-      icon: sassIcon,
+      name: "JavaScript",
+      icon: javascriptIcon,
       level: 85,
     },
     {
-      name: "Python",
-      icon: pythonIcon,
+      name: "TailwindCSS",
+      icon: tailwindIcon,
       level: 90,
     },
   ];
@@ -51,8 +54,8 @@ export default function Skills() {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Frontend Developer | React.js | Next.js | Angular.js | Python |
-            MySQL | Node.js
+            Frontend Developer | React.js | Next.js | Angular.js | JavaScript |
+            Python | MySQL | MongoDB | Node.js
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
