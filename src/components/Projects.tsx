@@ -86,7 +86,7 @@ export default function Projects() {
                     <a href={project.linkProject} target="_blank">
                       <HiArrowTopRightOnSquare className="h-6 w-6" />
                     </a>
-                    <a href={project.linkGithub}>
+                    <a href={project.linkGithub} target="_blank">
                       <FaCode className="h-6 w-6" />
                     </a>
                   </div>
