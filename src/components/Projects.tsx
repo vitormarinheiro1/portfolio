@@ -65,7 +65,7 @@ export default function Projects() {
             </h2>
             <p className="relative text-sm text-gray-400">
               Alguns dos projetos pessoais e que já realizei ao longo da minha
-              trajetória como programador fullstack.
+              trajetória como programador frontend.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>
