@@ -20,7 +20,7 @@
 
 - Reactjs
 - Vite
-- Styled Components
+- TailwindCSS
 - Emailjs
 
 <h2 id="started">🚀 Getting started</h2>
