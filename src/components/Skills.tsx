@@ -1,9 +1,9 @@
-import React from "react";
-import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2";
-import reactIcon from "../assets/react.svg";
-import nextIcon from "../assets/nextjs.svg";
-import javascriptIcon from "../assets/javascript.svg";
-import tailwindIcon from "../assets/tailwind.svg";
+import React from "react"
+import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
+import reactIcon from "../assets/react.svg"
+import nextIcon from "../assets/nextjs.svg"
+import javascriptIcon from "../assets/javascript.svg"
+import tailwindIcon from "../assets/tailwind.svg"
 
 export default function Skills() {
   const educations = [
@@ -16,7 +16,7 @@ export default function Skills() {
     {
       name: "Tecnologia da informação | Centro Educacional Desafio",
     },
-  ];
+  ]
 
   const skills = [
     {
@@ -39,7 +39,7 @@ export default function Skills() {
       icon: tailwindIcon,
       level: 90,
     },
-  ];
+  ]
 
   return (
     <section className="rounded-br-[80px] bg-gray-300 md:rounded-br-[180px]">
@@ -113,5 +113,5 @@ export default function Skills() {
         </div>
       </div>
     </section>
-  );
+  )
 }

@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 import {
   HiCommandLine,
   HiComputerDesktop,
   HiDevicePhoneMobile,
-} from "react-icons/hi2";
+} from "react-icons/hi2"
 
 export function Services() {
   const services = [
@@ -24,7 +24,7 @@ export function Services() {
       description: "Desenvolvimento de aplicativos Android e iOS.",
       icon: <HiDevicePhoneMobile className="h-12 w-12" />,
     },
-  ];
+  ]
 
   return (
     <section className="container mx-auto my-12 max-w-4xl p-4">
@@ -56,7 +56,7 @@ export function Services() {
         ))}
       </div>
     </section>
-  );
+  )
 }
 
-export default Services;
+export default Services
