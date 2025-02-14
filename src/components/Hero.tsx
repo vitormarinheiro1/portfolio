@@ -33,7 +33,7 @@ export function Hero() {
             <span className="italic text-gray-500">ou</span>
             <a
               href="../src/assets/Resume.pdf"
-              download="VitorMarinheiro"
+              download="VitorMarinheiro.pdf"
               className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"
             >
               <HiDownload />
