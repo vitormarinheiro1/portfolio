@@ -64,8 +64,7 @@ export default function Projects() {
               <span className="font-handwriting text-4xl">Portfólio</span>
             </h2>
             <p className="relative text-sm text-gray-400">
-              Alguns dos projetos pessoais e que já realizei ao longo da minha
-              trajetória como programador.
+              Aqui estão alguns projetos pessoais que desenvolvi ao longo da minha trajetória como programador.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>
