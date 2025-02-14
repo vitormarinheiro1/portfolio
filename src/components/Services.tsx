@@ -2,7 +2,7 @@ import React from "react"
 import {
   HiCommandLine,
   HiComputerDesktop,
-  HiDevicePhoneMobile,
+  HiOutlinePhoto,
 } from "react-icons/hi2"
 
 export function Services() {
@@ -10,19 +10,19 @@ export function Services() {
     {
       title: "Web",
       description:
-        "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Next.js, SCSS e Jest.",
+        "Desenvolvimento de sites e sistemas web estáticos com otimização no SEO.",
       icon: <HiComputerDesktop className="h-12 w-12" />,
     },
     {
       title: "Sistemas",
       description:
-        "Desenvolvimento de sistemas e APIs REST com Python e Swagger.",
+        "Desenvolvimento de sistemas e APIs REST com Python ou Laravel e Swagger.",
       icon: <HiCommandLine className="h-12 w-12" />,
     },
     {
-      title: "Mobile",
-      description: "Desenvolvimento de aplicativos Android e iOS.",
-      icon: <HiDevicePhoneMobile className="h-12 w-12" />,
+      title: "UI/UX",
+      description: "Criação de protótipos de sites e sistemas no Figma.",
+      icon: <HiOutlinePhoto className="h-12 w-12" />,
     },
   ]
 
@@ -38,8 +38,8 @@ export function Services() {
         </h2>
 
         <p className="text-sm text-gray-600">
-          Posso atender uma gama completa de serviços, do front-end ao back-end
-          com banco de dados e sistemas.
+          Atendo diferentes tipos de serviços, do front-end ao back-end,
+          com a melhor qualidade possível.
         </p>
       </div>
 
