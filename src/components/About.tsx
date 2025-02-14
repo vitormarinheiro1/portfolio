@@ -9,10 +9,12 @@ export function About() {
           <span className="font-handwriting text-4xl">Mim</span>
         </h2>
         <p className="relative text-sm text-gray-600">
-          Sou especializado em criar interfaces web intuitivas e dinâmicas.
-          Estudo Ciência da Computação e estou sempre atualizado com as últimas
-          tendências e tecnologias, buscando aprimorar minhas habilidades e
-          entregar projetos de alta qualidade.
+          Criador de sistemas freelancer, crio interfaces web responsivas e
+          sistemas de gerenciamento com testes unitários.
+          Comigo seus sistemas estarão seguros, com criptografias e com um banco
+          de dados totalmente seguro. Trabalho usando a metodologia ágel SCRUM, o
+          que me ajuda a entregar um software com o menor tempo de espera do cliente
+          possível.
         </p>
         <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40" />
       </div>
@@ -34,7 +36,7 @@ export function About() {
                   <td className="font-headline font-bold uppercase text-blue-900">
                     Idade:
                   </td>
-                  <td>19</td>
+                  <td>20</td>
                 </tr>
                 <tr>
                   <td className="font-headline font-bold uppercase text-blue-900">
