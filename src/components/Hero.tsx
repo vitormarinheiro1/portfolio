@@ -32,8 +32,8 @@ export function Hero() {
             </a>
             <span className="italic text-gray-500">ou</span>
             <a
-              href="../src/assets/Curriculo_Vitor_Marinheiro.pdf"
-              download="Currículo Vitor Marinheiro"
+              href="../src/assets/Resume.pdf"
+              download="VitorMarinheiro"
               className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"
             >
               <HiDownload />

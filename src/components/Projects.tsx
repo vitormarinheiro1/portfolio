@@ -2,11 +2,11 @@ import React from "react";
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
 import { FaCode } from "react-icons/fa6";
 
-import tarefasImage from "../assets/tarefas.png";
-import fswBarberImage from "../assets/fswbarber.png";
-import eplayImage from "../assets/eplay.png";
-import plannerImage from "../assets/planner.png";
-import vitorhelpdeskImage from "../assets/vitorhelpdesk.png";
+import tarefasImage from "../assets/projects/tarefas.png";
+import fswBarberImage from "../assets/projects/fswbarber.png";
+import eplayImage from "../assets/projects/eplay.png";
+import plannerImage from "../assets/projects/planner.png";
+import vitorhelpdeskImage from "../assets/projects/vitorhelpdesk.png";
 
 export default function Projects() {
   const projects = [
@@ -65,7 +65,7 @@ export default function Projects() {
             </h2>
             <p className="relative text-sm text-gray-400">
               Alguns dos projetos pessoais e que já realizei ao longo da minha
-              trajetória como programador frontend.
+              trajetória como programador.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>

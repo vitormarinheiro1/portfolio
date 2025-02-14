@@ -1,17 +1,17 @@
 import React from "react"
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
-import reactIcon from "../assets/react.svg"
-import nextIcon from "../assets/nextjs.svg"
-import javascriptIcon from "../assets/javascript.svg"
-import tailwindIcon from "../assets/tailwind.svg"
+import reactIcon from "../assets/icons-tech/react.svg"
+import phpIcon from "../assets/icons-tech/php.svg"
+import javascriptIcon from "../assets/icons-tech/javascript.svg"
+import laravelIcon from "../assets/icons-tech/laravel.svg"
 
 export default function Skills() {
   const educations = [
     {
-      name: "Ciência da computação | Faculdade descomplica",
+      name: "Ciência da Computação | Universidade Anhembi Morumbi",
     },
     {
-      name: "React, Nextjs, JavaScript, TypeScript | Alura Escola de Tecnologia",
+      name: "React, Nextjs, JavaScript, PHP, Laravel | Alura Escola de Tecnologia",
     },
     {
       name: "Tecnologia da informação | Centro Educacional Desafio",
@@ -20,14 +20,9 @@ export default function Skills() {
 
   const skills = [
     {
-      name: "React.js",
-      icon: reactIcon,
+      name: "PHP",
+      icon: phpIcon,
       level: 90,
-    },
-    {
-      name: "Next.js",
-      icon: nextIcon,
-      level: 75,
     },
     {
       name: "JavaScript",
@@ -35,8 +30,13 @@ export default function Skills() {
       level: 85,
     },
     {
-      name: "TailwindCSS",
-      icon: tailwindIcon,
+      name: "React",
+      icon: reactIcon,
+      level: 87,
+    },
+    {
+      name: "Laravel",
+      icon: laravelIcon,
       level: 90,
     },
   ]
@@ -54,8 +54,8 @@ export default function Skills() {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Frontend Developer | React.js | Next.js | Angular.js | JavaScript |
-            Python | MySQL | MongoDB | Node.js
+            Desenvolvedor Fullstack | PHP | JavaScript | Python | React |
+            Next.js | Angular.js | Laravel | MySQL
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
