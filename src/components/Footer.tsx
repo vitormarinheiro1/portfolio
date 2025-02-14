@@ -2,6 +2,9 @@ import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export function Footer() {
+
+  const data = new Date().getFullYear()
+
   return (
     <footer className="h-full text-gray-300 p-4 bg-gray-900 text-center">
       <ul className="flex justify-center w-1/10 mx-auto my-4 gap-2">
@@ -20,7 +23,7 @@ export function Footer() {
         </li>
       </ul>
       <p className="mb-3 text-sm font-headline font-semibold">
-        © 2024 Desenvolvido por Vitor Marinheiro | Todos os direitos
+        &copy; {data} Desenvolvido por Vitor Marinheiro | Todos os direitos
         reservados.
       </p>
     </footer>
