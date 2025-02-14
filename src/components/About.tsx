@@ -12,7 +12,7 @@ export function About() {
           Criador de sistemas freelancer, crio interfaces web responsivas e
           sistemas de gerenciamento com testes unitários.
           Comigo seus sistemas estarão seguros, com criptografias e com um banco
-          de dados totalmente seguro. Trabalho usando a metodologia ágel SCRUM, o
+          de dados totalmente seguro. Trabalho usando a metodologia ágil SCRUM, o
           que me ajuda a entregar um software com o menor tempo de espera do cliente
           possível.
         </p>
